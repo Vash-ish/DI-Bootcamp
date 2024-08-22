@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: left;
+    border-bottom: 2px solid #000;
+    padding-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.header h2 {
+    font-size: 18px;
+    color: #666;
+    margin: 5px 0 0 0;
+}
+
+.profile-picture {
+    float: right;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: 5px solid #ccc;
+    border-radius: 50%;
+    margin-top: -120px;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: auto;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contact, .profile, .education, .work-experience {
+    width: 45%;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+p {
+    margin-top: 0;
+    line-height: 1.6;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
